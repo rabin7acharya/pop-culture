@@ -1,0 +1,12 @@
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\bin\Debug\net6.0\PopCulture.Utility.deps.json
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\bin\Debug\net6.0\PopCulture.Utility.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\bin\Debug\net6.0\PopCulture.Utility.pdb
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.csproj.AssemblyReference.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.AssemblyInfoInputs.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.AssemblyInfo.cs
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\refint\PopCulture.Utility.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\PopCulture.Utility.pdb
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.Utility\obj\Debug\net6.0\ref\PopCulture.Utility.dll

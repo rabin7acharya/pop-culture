@@ -1,0 +1,42 @@
+﻿@model IEnumerable<PopCulture.Models.Product>
+
+<div class="landing-section mb-4 d-flex flex-wrap justify-content-between align-items-center" style="height: 90vh">
+    <div class="landing-text mb-5 col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 d-flex flex-column justify-content-center align-items-center align-items-sm-center align-items-md-start align-items-lg-start align-items-xl-start" style="height: 100%">
+        <p class="mb-1 px-2 py-1 bg-light">Free Home Delivery 24 Hours</p>
+        <h1 class="display-5 m-0" style="font-weight: 700">UNLOCK'</h1>
+        <h1 class="display-2 m-0" style="font-weight: 700">YOUR OWN STYLE</h1>
+        <p>Wear your footwears like never before.</p>
+
+        <a class="btn btn-dark btn-lg mt-4 rounded-pill" asp-area="" asp-page="/Pizza">TAKE A TOUR</a>
+
+    </div>
+
+    <img class="main image py-4 ps-4 mb-5 col-12 col-sm-12 col-md-6 col-lg-7 col-xl-7 d-none d-sm-none d-md-block d-lg-block d-xl-block" src="~/images/landing.png" />
+
+
+</div>
+
+<h1>Products</h1>
+<div class="row pb-3">
+    @foreach (var product in Model)
+     {
+        <div class="product-card py-2 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center">
+            <div class="rounded d-flex align-items-center justify-content-center mb-2" style="height: 16rem; overflow:hidden">
+                <img src="@product.ImageUrl" class="card-img" style="width:100%" />
+            </div>
+            <p class="text-center text-secondary m-0">@product.BrandName</p>
+            <h3 class="text-center m-0 fw-bolder">@product.Name</h3>
+            <div class="d-flex justify-content-center m-0">
+                <p class="px-1 text-secondary m-0 fw-bolder">@product.Category.Name</p>
+                <div class="circle mt-2 "></div>
+                <p class="px-1 text-secondary m-0 fw-bolder">@product.WearType.Name</p>
+                <div class="circle mt-2"></div>
+                <p class="px-1 text-secondary m-0 fw-bolder">Size: @product.Size</p>
+            </div>
+            <h3 class="text-center text-secondary mt-0 fw-bolder">NRs. @product.Price</h3>
+            <a asp-action="Details" class="btn btn-dark mt-2" asp-route-id="@product.Id"><i class="bi bi-eye-fill me-1"></i> View</a>
+             
+         </div>
+     }
+    
+</div>

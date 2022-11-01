@@ -1,0 +1,17 @@
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.AssemblyInfo.cs
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.DataAccess.deps.json
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.DataAccess.runtimeconfig.json
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.DataAccess.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.DataAccess.pdb
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.Models.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\bin\Debug\net6.0\PopCulture.Models.pdb
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.csproj.CopyComplete
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\refint\PopCulture.DataAccess.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.pdb
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\PopCulture.DataAccess.genruntimeconfig.cache
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCulture.DataAccess\obj\Debug\net6.0\ref\PopCulture.DataAccess.dll

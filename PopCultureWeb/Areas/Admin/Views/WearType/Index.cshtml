@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WearType>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="content" style="height: 80vh">
+
+    <div class="row align-items-center my-4">
+        <h5 class="col-6 m-0">Wear-Type List</h5>
+        <div class="d-flex justify-content-end col-6">
+            <a asp-controller="WearType" asp-action="Create" class="btn btn-dark"><i class="bi bi-plus-circle me-2"></i>Create New</a>
+        </div>
+    </div>
+
+
+
+    <table class="table table-bordered table-striped" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Wear Type Name
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var obj in Model)
+            {
+                <tr>
+                    <td>
+                        @obj.Name
+                    </td>
+                    <td width="20%">
+                        <div class=" btn-group" role="group">
+                            <a class="btn btn-dark" asp-controller="WearType" asp-action="Edit" asp-route-id="@obj.Id"><i class="bi bi-pen"></i></a>
+                            <a class="btn btn-outline-danger" asp-controller="WearType" asp-action="Delete" asp-route-id="@obj.Id"><i class="bi bi-trash3"></i></a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</div>
