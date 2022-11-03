@@ -23,10 +23,11 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+                    <ul class="navbar-nav mx-auto flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Home" asp-area="Customer" asp-action="Index">Home</a>
                         </li>
+                        
                         
                         
                         <li class="nav-item dropdown">
@@ -41,10 +42,17 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="WearType" asp-action="Index">Wear-Types</a>
+                                </li><li class="nav-item">
+                                    <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="Company" asp-action="Index">Company</a>
                                 </li>
                             </ul>
                         </li>
+                        
                     </ul>
+                    <partial name="_LoginPartial"/>
+                    <a class="btn btn-outline-dark" asp-controller="Cart" asp-area="Customer" asp-action="Index"><i class="bi bi-bag me-1"></i>Cart: 0</a>
+                        
+                        
                 </div>
             </div>
         </nav>

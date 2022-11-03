@@ -1,0 +1,60 @@
+﻿@model Company
+
+<form method="post" asp-action="Upsert" style="height: 80vh" class="content mb-5" enctype="multipart/form-data">
+    <input asp-for="Id" hidden/>
+    <div class="border p-3 row">
+        <div class="pb-2 mb-2">
+            <h4>@(Model.Id!=0?"Update" : "Create") Company</h4>
+            <hr />
+        </div>
+        <div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="PhoneNumber"></label>
+            <input asp-for="PhoneNumber" class="form-control" />
+            <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="StreetAddress"></label>
+            <input asp-for="StreetAddress" class="form-control" />
+            <span asp-validation-for="StreetAddress" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="City"></label>
+            <input asp-for="City" class="form-control" />
+            <span asp-validation-for="City" class="text-danger"></span>
+        </div>
+        <div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="State"></label>
+            <input asp-for="State" class="form-control" />
+            <span asp-validation-for="State" class="text-danger"></span>
+        </div><div class="mb-3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <label asp-for="PostalCode"></label>
+            <input asp-for="PostalCode" class="form-control" />
+            <span asp-validation-for="PostalCode" class="text-danger"></span>
+        </div>
+        
+
+        <div class="mt-3">
+            @if (Model.Id!=0)
+            {
+                <button type="submit" class="btn btn-dark px-5">Update</button>
+            }
+            else
+            {
+                <button type="submit" class="btn btn-dark px-5">Create</button>
+            }
+            <a asp-controller="Company" asp-action="Index" class="btn btn-outline-dark">Back</a>
+        </div>
+        
+    </div>
+</form>
+
+@section Scripts{
+    @{
+    <partial name="_ValidationScriptsPartial" />
+    }
+}

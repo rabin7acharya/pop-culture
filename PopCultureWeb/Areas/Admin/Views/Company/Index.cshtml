@@ -1,0 +1,34 @@
+﻿<div class="content" style="height: 80vh">
+
+    <div class="row align-items-center my-4">
+        <h5 class="col-6 m-0">Company List</h5>
+        <div class="d-flex justify-content-end col-6">
+            <a asp-controller="Company" asp-action="Upsert" class="btn btn-dark"><i class="bi bi-plus-circle me-2"></i>Create New</a>
+        </div>
+    </div>
+
+
+
+    <table id="tblData" class="table table-bordered table-striped mt-2" style="width:100%">
+        <thead class="border">
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Phone Number</th>
+                <th></th>
+            </tr>
+        </thead>
+        
+        
+    </table>
+
+
+</div>
+
+@section Scripts {
+    <script src="~/js/company.js">
+        
+    </script>
+}

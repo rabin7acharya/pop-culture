@@ -1,6 +1,7 @@
 ﻿@model ShoppingCart
 
 <form class="content" method="post" style="height: 100vh">
+    <input hidden asp-for="ProductId" />
     <div class="row">
         <div class="rounded border p-1 col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 d-flex align-items-center justify-content-center mb-2" style="height: 18rem; overflow:hidden">
             <img src="@Model.Product.ImageUrl" class="card-img rounded" style="width:100%" />
@@ -19,7 +20,7 @@
                
                     <div class="btn-group rounded-3" role="group" style="border: 1px solid black">
                         <input type="button" class="btn btn-dark" onclick="decrementValue()" value="-" />
-                        <input type="number" class="border-0 text-center" style="width: 3rem; outline: none" asp-for="Count" name="quantity" value="1" maxlength="2" max="10" id="number" />
+                        <input type="number" class="border-0 text-center" style="width: 3rem; outline: none" asp-for="Count" id="number" />
                         <input type="button" class="btn btn-dark" onclick="incrementValue()" value="+" />
                     </div>
             </div>
