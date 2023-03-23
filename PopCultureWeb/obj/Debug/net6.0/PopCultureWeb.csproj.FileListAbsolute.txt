@@ -570,3 +570,6 @@ C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\Mi
 C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\PopCulture.Utility.dll
 C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\PopCulture.Utility.pdb
 C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\MailKit.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Rabin Acharya\source\repos\PopCulture\PopCultureWeb\bin\Debug\net6.0\BouncyCastle.Crypto.dll

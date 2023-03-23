@@ -1,0 +1,8 @@
+﻿@model int
+
+<div class="content text-center" style="height: 80vh">
+
+    <h1>PAYMENT SUCCESSFUL!</h1>
+    <h5>Order Number: @Model</h5>
+    <a asp-area="Admin" asp-controller="Order" asp-action="Details" asp-route-orderId="@Model" class="btn btn-dark">Back to Order Details</a>
+</div>

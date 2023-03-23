@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Http
+@using PopCulture.Utility
+@inject IHttpContextAccessor HttpContextAccessor
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -27,9 +31,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-controller="Home" asp-area="Customer" asp-action="Index">Home</a>
                         </li>
-                        
-                        
-                        
+
+
+                        @if(User.IsInRole(SD.Role_Admin)){
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 CMS
@@ -37,22 +41,35 @@
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="Product" asp-action="Index">Products</a>
-                                </li><li class="nav-item">
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="Category" asp-action="Index">Category</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="WearType" asp-action="Index">Wear-Types</a>
-                                </li><li class="nav-item">
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link dropdown-item text-white" asp-area="admin" asp-controller="Company" asp-action="Index">Company</a>
                                 </li>
+                                <li class="nav-item">
+                                    <a class="nav-link dropdown-item text-white" asp-area="Identity" asp-page="/Account/Register">Create User</a>
+                                </li>
+                                
                             </ul>
                         </li>
-                        
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="admin" asp-controller="Order" asp-action="Index">Manage Orders</a>
+                        </li>
+
                     </ul>
-                    <partial name="_LoginPartial"/>
-                    <a class="btn btn-outline-dark" asp-controller="Cart" asp-area="Customer" asp-action="Index"><i class="bi bi-bag me-1"></i>Cart: 0</a>
+                    <partial name="_LoginPartial" />
+                    
+                    
+                    @await Component.InvokeAsync("ShoppingCart")
                         
-                        
+                    
+
                 </div>
             </div>
         </nav>
@@ -87,15 +104,15 @@
                 </p>
                 <ul class="footer-navigation align-items-start justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-end justify-content-xl-end m-0 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-none d-sm-none d-md-none d-lg-flex d-xl-flex">
                     <li><a href="">Home</a></li>
-                    <li><a href="">Movies</a></li>
+                    <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    
-    
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

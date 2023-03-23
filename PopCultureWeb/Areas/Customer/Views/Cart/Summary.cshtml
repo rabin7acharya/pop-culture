@@ -2,7 +2,7 @@
 @using Microsoft.Extensions.Options
 @inject IOptions<PopCulture.Utility.StripeSettings> Stripe
 
-<form method="post" class="content" style="height: 80vh">
+<form method="post" class="content" style="height: 90vh">
 	<br />
 	<div class="container">
 		<div class="card">
@@ -112,7 +112,7 @@
 						<p style="color:maroon; font-size:14px;">Estimate Arrival Date: @DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()</p>
 					</div>
 					<div class="col-12 col-md-4">
-						<button type="submit" value="Place Order" class="btn btn-primary form-control">Place Order</button>
+						<button type="submit" value="Place Order" class="btn form-control btn-dark form-control">Place Order</button>
 					</div>
 				</div>
 			</div>

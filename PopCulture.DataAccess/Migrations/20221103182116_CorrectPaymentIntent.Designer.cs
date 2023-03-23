@@ -12,8 +12,8 @@ using PopCulture.DataAccess;
 namespace PopCulture.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221102183845_addOrderHeaderOrderDetails")]
-    partial class addOrderHeaderOrderDetails
+    [Migration("20221103182116_CorrectPaymentIntent")]
+    partial class CorrectPaymentIntent
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -350,7 +350,7 @@ namespace PopCulture.DataAccess.Migrations
                     b.Property<DateTime>("PaymentDueDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("PaymentIntendId")
+                    b.Property<string>("PaymentIntentId")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PaymentStatus")

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I97Beubj2+thtLorViwI6coN0KZlbJBwuBWNhj3NPJI=",
+  "Hash": "vrJMNbiC6LKwYvdNbFP7oOansuRiwofl1rR9uNMEvsQ=",
   "Source": "PopCultureWeb",
   "BasePath": "_content/PopCultureWeb",
   "Mode": "Default",
@@ -1173,12 +1173,12 @@
       "OriginalItemSpec": "wwwroot\\images\\popculturedark.svg"
     },
     {
-      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\219659ab-3622-4e60-b744-2361a9668c17.jpg",
+      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\a3587d2d-7590-4e48-a69f-8382faaf2080.png",
       "SourceId": "PopCultureWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\",
       "BasePath": "_content/PopCultureWeb",
-      "RelativePath": "images/products/219659ab-3622-4e60-b744-2361a9668c17.jpg",
+      "RelativePath": "images/products/a3587d2d-7590-4e48-a69f-8382faaf2080.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,15 +1187,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\219659ab-3622-4e60-b744-2361a9668c17.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\a3587d2d-7590-4e48-a69f-8382faaf2080.png"
     },
     {
-      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\23bc8233-b6bd-4fcc-97b2-8653ee215b84.jpg",
+      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\a536aee7-a54d-49da-b42d-978f91b0b9bc.png",
       "SourceId": "PopCultureWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\",
       "BasePath": "_content/PopCultureWeb",
-      "RelativePath": "images/products/23bc8233-b6bd-4fcc-97b2-8653ee215b84.jpg",
+      "RelativePath": "images/products/a536aee7-a54d-49da-b42d-978f91b0b9bc.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1204,15 +1204,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\23bc8233-b6bd-4fcc-97b2-8653ee215b84.jpg"
+      "OriginalItemSpec": "wwwroot\\images\\products\\a536aee7-a54d-49da-b42d-978f91b0b9bc.png"
     },
     {
-      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\45a92812-df31-4b0b-a07a-0145376acc4d.png",
+      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\c90c8488-a091-42e7-95e7-b82755ba2ec2.png",
       "SourceId": "PopCultureWeb",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\",
       "BasePath": "_content/PopCultureWeb",
-      "RelativePath": "images/products/45a92812-df31-4b0b-a07a-0145376acc4d.png",
+      "RelativePath": "images/products/c90c8488-a091-42e7-95e7-b82755ba2ec2.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1221,7 +1221,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\products\\45a92812-df31-4b0b-a07a-0145376acc4d.png"
+      "OriginalItemSpec": "wwwroot\\images\\products\\c90c8488-a091-42e7-95e7-b82755ba2ec2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\images\\products\\e2cc5cb7-5cc9-42bf-ab1f-df99825c8ebd.png",
+      "SourceId": "PopCultureWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\",
+      "BasePath": "_content/PopCultureWeb",
+      "RelativePath": "images/products/e2cc5cb7-5cc9-42bf-ab1f-df99825c8ebd.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\e2cc5cb7-5cc9-42bf-ab1f-df99825c8ebd.png"
     },
     {
       "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\js\\company.js",
@@ -1239,6 +1256,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\js\\order.js",
+      "SourceId": "PopCultureWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\",
+      "BasePath": "_content/PopCultureWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\Rabin Acharya\\source\\repos\\PopCulture\\PopCultureWeb\\wwwroot\\js\\product.js",

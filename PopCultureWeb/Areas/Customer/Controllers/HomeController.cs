@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using PopCulture.DataAccess.Repository.IRepository;
 using PopCulture.Models;
+using PopCulture.Utility;
 using System.Diagnostics;
 using System.Security.Claims;
 
@@ -25,6 +26,7 @@ namespace PopCultureWeb.Areas.Customer.Controllers
             return View(productList);
             
         }
+
         public IActionResult Details(int productId)
         {
             ShoppingCart cartObj = new()
@@ -51,6 +53,9 @@ namespace PopCultureWeb.Areas.Customer.Controllers
             
             {
                 _unitOfWork.ShoppingCart.Add(shoppingCart);
+                _unitOfWork.Save();
+                HttpContext.Session.SetInt32(SD.SessionCart,
+                    _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == claim.Value).ToList().Count);
             }
             else
             {

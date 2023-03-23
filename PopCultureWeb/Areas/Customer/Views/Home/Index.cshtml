@@ -16,11 +16,11 @@
 
 </div>
 
-<h1>Products</h1>
-<div class="row pb-3">
+<h1 class="mb-5 text-center">Products</h1>
+<div class="row pb-3" style="margin-bottom: 5rem">
     @foreach (var product in Model)
      {
-        <div class="product-card py-2 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center">
+        <div class="product-card mb-5 py-2 col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center">
             <div class="rounded d-flex align-items-center justify-content-center mb-2" style="height: 16rem; overflow:hidden">
                 <img src="@product.ImageUrl" class="card-img" style="width:100%" />
             </div>
@@ -33,7 +33,7 @@
                 <div class="circle mt-2"></div>
                 <p class="px-1 text-secondary m-0 fw-bolder">Size: @product.Size</p>
             </div>
-            <h3 class="text-center text-secondary mt-0 fw-bolder">NRs. @product.Price</h3>
+            <h3 class="text-center text-secondary mt-0 fw-bolder">USD @product.Price</h3>
             <a asp-action="Details" class="btn btn-dark mt-2" asp-route-productId="@product.Id"><i class="bi bi-eye-fill me-1"></i> View</a>
              
          </div>
